@@ -12,8 +12,6 @@ pitch_table = {'C': 1, 'D': 9/8, 'E': 5/4, 'F': 4/3, 'G': 3/2, 'A': 5/3, 'B': 15
 
 # Función para obtener el array de muestras correspondiente a una nota
 def get_note_array(note_name):
-    # Calcular la frecuencia de muestreo adecuada para la nota
-    frequency = samplerate * pitch_table[note_name]
     # Interpolar el array de muestras para obtener la nota correspondiente
     #if frequency > samplerate:
     xToInt = np.arange(0, len(C), pitch_table[note_name])
@@ -74,7 +72,7 @@ def main():
 
         # lo pasamos al stream
         if (len(buff) != 0):
-            stream.write(buff[:CHUNK]) # escribimos al stream
+            stream.write(buff[:CHUNK] * vol) # escribimos al stream
             buff = buff[CHUNK:]
             if(len(buff) == 0):
                 buff = []
