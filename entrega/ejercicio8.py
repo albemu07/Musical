@@ -25,7 +25,7 @@ def main():
     # abrimos stream de salida
     stream = sd.OutputStream(
     samplerate = samplerate,            # frec muestreo 
-    blocksize  = len(C),            # tamaño del bloque (muy recomendable unificarlo en todo el programa)
+    blocksize  = CHUNK,            # tamaño del bloque (muy recomendable unificarlo en todo el programa)
     channels   = 1)  # num de canales
 
     # arrancamos stream
@@ -68,7 +68,7 @@ def main():
             if(note != " "):
                 buff = get_note_array(note)
 
-            print("Vol: ",vol) 
+            #print("Vol: ",vol) 
 
         # lo pasamos al stream
         if (len(buff) != 0):
