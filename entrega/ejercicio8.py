@@ -3,6 +3,8 @@ import sounddevice as sd   # modulo de conexión con portAudio
 import soundfile as sf     # para lectura/escritura de wavs
 import kbhit               # para lectura de teclas no bloqueante
 
+CHUNK = 1024
+
 filename = 'piano.wav'
 C, samplerate = sf.read(filename)
 pitch_table = {'C': 1, 'D': 9/8, 'E': 5/4, 'F': 4/3, 'G': 3/2, 'A': 5/3, 'B': 15/8, 
@@ -13,11 +15,11 @@ def get_note_array(note_name):
     # Calcular la frecuencia de muestreo adecuada para la nota
     frequency = samplerate * pitch_table[note_name]
     # Interpolar el array de muestras para obtener la nota correspondiente
-    if frequency > samplerate:
-        note_array = np.interp(np.arange(0, len(C), pitch_table[note_name]), np.arange(0, len(C), 2), C[::2])
-    else:
-        note_array = np.interp(np.arange(0, len(C) * 2, pitch_table[note_name]), np.arange(0, len(C)), C)
-        note_array = note_array[::2]
+    #if frequency > samplerate:
+    xToInt = np.arange(0, len(C), pitch_table[note_name])
+    x = np.arange(0, len(C), 1)
+    note_array = np.interp(xToInt, x, C)
+    
     return np.float32(note_array)
 
 def main():
@@ -41,6 +43,8 @@ def main():
 
     i = 0
 
+    buff = []
+
     while c!= 'k' and not(end)>0: 
         # modificación de volumen 
         if kb.kbhit():
@@ -62,12 +66,21 @@ def main():
             elif (c == 't'): note = 'g'
             elif (c == 'y'): note = 'a'
             elif (c == 'u'): note = 'b'
+
+            if(note != " "):
+                buff = get_note_array(note)
+
             print("Vol: ",vol) 
 
-            # lo pasamos al stream
-            if (note != " "):
-                stream.write(get_note_array(note)) # escribimos al stream
-        #print('.',end='')
+        # lo pasamos al stream
+        if (len(buff) != 0):
+            stream.write(buff[:CHUNK]) # escribimos al stream
+            buff = buff[CHUNK:]
+            if(len(buff) == 0):
+                buff = []
+            elif(len(buff) < CHUNK):
+                zeros = CHUNK - len(buff)
+                buff = np.float32(np.concatenate((buff, np.zeros(zeros)), axis=0))
 
     print('end')
 
