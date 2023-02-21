@@ -52,10 +52,10 @@ def main():
     while c!= 'k' and not(end)>0: 
         # modificación de volumen 
         if kb.kbhit():
-            note = " "
+            note = "C"
             c = kb.getch()
-            other = np.concatenate((get_note_array('C'), np.zeros(np.int64(0.2 * samplerate))))
-            buff = np.float32(np.sum((other, addDelay(get_note_array('C')))))
+            other = np.concatenate((get_note_array(note), np.zeros(np.int64(0.2 * samplerate))))
+            buff = np.float32(np.sum([other, addDelay(get_note_array(note))], axis = 0))
             #print("Vol: ",vol) 
 
         # lo pasamos al stream
