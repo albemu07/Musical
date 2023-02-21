@@ -81,12 +81,13 @@ def main():
     bloque = []
 
     while c!= 'q' and not(end)>0: 
-        nota, duración = partitura[i]
+        if(i < len(partitura)):
+            nota, duración = partitura[i]
 
         # lo pasamos al stream
         if(len(bloque) == 0):
             i += 1
-            if(i >= len(partitura)):
+            if(i > len(partitura)):
                 end = True
             else:
                 bloque = oscChuck(nota, duración)
