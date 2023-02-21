@@ -10,7 +10,6 @@ CHUNK = 1024
 last = 0
 
 def noteToFrec(note):
-
     if(note =="C"):
         frec = 523.251
     elif(note =="D"):
@@ -41,10 +40,14 @@ def noteToFrec(note):
         frec = 1975.534
     return frec
 
-def oscChuck(nota,vol,dur):
+def readSong(fileName):
+    f = open(fileName + ".txt", "r")
+    print(f.read())
+
+def oscChuck(nota,dur):
     global last # var global
     frec = noteToFrec(nota)
-    data = vol*np.sin(2*np.pi*(np.arange(SRATE * dur) + last)*frec/SRATE)
+    data = np.sin(2*np.pi*(np.arange(SRATE * dur) + last)*frec/SRATE)
     data[-np.int32(len(data)*0.01):] = 0             
     last += len(data)*0.99
     
@@ -75,16 +78,26 @@ def main():
 
     i = 0
     partitura = happyBirthday()
+    bloque = []
 
     while c!= 'q' and not(end)>0: 
         nota, duración = partitura[i]
-        i += 1
-        if(i >= len(partitura)):
-             end = True
-        # nuevo bloque. Si tiene menos de CHUNK samples coge los que quedan
-        bloque = oscChuck(nota,vol, duración)
+
         # lo pasamos al stream
-        stream.write(bloque) # escribimos al stream
+        if(len(bloque) == 0):
+            i += 1
+            if(i >= len(partitura)):
+                end = True
+            else:
+                bloque = oscChuck(nota, duración)
+        else:
+            stream.write(bloque[:CHUNK] * vol) # escribimos al stream
+            bloque = bloque[CHUNK:]
+            if(len(bloque) == 0):
+                bloque = []
+            elif(len(bloque) < CHUNK):
+                zeros = CHUNK - len(bloque)
+                bloque = np.float32(np.concatenate((bloque, np.zeros(zeros)), axis=0))
 
         # modificación de volumen 
         if kb.kbhit():
@@ -93,7 +106,7 @@ def main():
             elif (c=='V'): vol= min(1,vol+0.05)
             print("Vol: ",vol) 
 
-        print('.',end='')
+        print('.', end = '')
 
     print('end')
 
