@@ -75,7 +75,7 @@ def happyBirthday():
     return song
     
 def main():
-    readSong("prueba")
+    #readSong("prueba")
     # abrimos stream de salida
     stream = sd.OutputStream(
     samplerate = SRATE,            # frec muestreo 
