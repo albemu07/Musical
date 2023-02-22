@@ -42,7 +42,23 @@ def noteToFrec(note):
 
 def readSong(fileName):
     f = open(fileName + ".txt", "r")
-    print(f.read())
+    x = f.readlines()
+    p = x[5].split(" ")
+
+    pFinal = []
+    for pI in p:
+        if(pI != "|"):
+            if(len(pI) == 1 or pI[-1] == "M"):
+                pFinal.append((pI, 1))
+            elif(pI[-1] == "L"):
+                pFinal.append((pI, 2))
+            elif(pI[-1] == "S"):
+                pFinal.append((pI, 0.5))
+            elif(pI[-1] == "F"):
+                pFinal.append((pI, 0.25))
+    
+
+    return pFinal
 
 def oscChuck(nota,dur):
     global last # var global
@@ -59,6 +75,7 @@ def happyBirthday():
     return song
     
 def main():
+    readSong("prueba")
     # abrimos stream de salida
     stream = sd.OutputStream(
     samplerate = SRATE,            # frec muestreo 
