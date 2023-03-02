@@ -12,7 +12,6 @@
 import numpy as np         # arrays    
 import sounddevice as sd   # modulo de conexión con portAudio
 import soundfile as sf     # para lectura/escritura de wavs
-import kbhit,os
 
 
 SRATE = 44100      
@@ -39,6 +38,8 @@ class OscWaveTable:
     def getFrec(self): 
         return self.frec    
 
+    def setVol(self,vol): 
+        self.vol = vol
 
     def getChunk(self):
         samples = np.zeros(CHUNK,dtype=np.float32)
@@ -66,33 +67,33 @@ class OscWaveTable:
         return np.float32(self.vol*samples)
 
 
-stream = sd.OutputStream(samplerate=SRATE,blocksize=CHUNK,channels=1)  
-stream.start()
+# stream = sd.OutputStream(samplerate=SRATE,blocksize=CHUNK,channels=1)  
+# stream.start()
 
-kb = kbhit.KBHit()
-c = ' '
+# kb = kbhit.KBHit()
+# c = ' '
 
-osc = OscWaveTable(110,1,1024)
+# osc = OscWaveTable(110,1,1024)
 
 
-while True:
-    samples = osc.getChunk()
+# while True:
+#     samples = osc.getChunk()
 
-    stream.write(samples)
+#     stream.write(samples)
 
-    if kb.kbhit():
-        os.system('clear')
-        c = kb.getch()
-        print(c)        
-        if c =='q': break
-        elif c=='F': osc.setFrec(osc.getFrec()+1)
-        elif c=='f': osc.setFrec(osc.getFrec()-1)
+#     if kb.kbhit():
+#         os.system('clear')
+#         c = kb.getch()
+#         print(c)        
+#         if c =='q': break
+#         elif c=='F': osc.setFrec(osc.getFrec()+1)
+#         elif c=='f': osc.setFrec(osc.getFrec()-1)
 
-        print("Frec ",osc.getFrec())
-        print("[F/f] subir/bajar frec")
-        print("q quit")
+#         print("Frec ",osc.getFrec())
+#         print("[F/f] subir/bajar frec")
+#         print("q quit")
         
 
-kb.set_normal_term()        
-stream.stop()
-stream.close()
+# kb.set_normal_term()        
+# stream.stop()
+# stream.close()
