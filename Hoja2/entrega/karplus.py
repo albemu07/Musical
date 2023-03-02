@@ -41,30 +41,17 @@ class KarplusStrong:
     def setVol(self,vol): 
         self.vol = vol
 
-    def getChunk(self):
-        samples = np.zeros(CHUNK,dtype=np.float32)
-        cont = 0
-        #print("RATE ",RATE, "   frec ",self.frec)
-        
-        while cont < CHUNK:
-            self.fase = (self.fase + self.step) % self.size
+    def KarplusStrong(frec, dur):
+        N = SRATE // int(frec) # la frecuencia determina el tamanio del buffer
+        buf = np.random.rand(N) * 2 - 1 # buffer inicial: ruido
+        nSamples = int(dur*SRATE)
+        samples = np.empty(nSamples, dtype=float) # salida
+        # generamos los nSamples haciendo recorrido circular por el buffer
+        for i in range(nSamples):
+            samples[i] = buf[i % N] # recorrido de buffer circular
+            buf[i % N] = 0.5 * (buf[i % N] + buf[(1 + i) % N]) # filtrado
+        return samples
 
-            # con truncamiento, sin redondeo
-            # samples[cont] = self.waveTable[int(self.fase)]
-
-            # con redondeo
-            #x = round(self.fase) % self.size
-            #samples[cont] = self.waveTable[x]
-                        
-            # con interpolacion lineal                                    
-            x0 = int(self.fase) % self.size
-            x1 = (x0 + 1) % self.size
-            y0, y1 = self.waveTable[x0], self.waveTable[x1]            
-            samples[cont] = y0 + (self.fase-x0)*(y1-y0)/(x1-x0)
-
-            cont = cont+1
-    
-        return np.float32(self.vol*samples)
 
 
 # stream = sd.OutputStream(samplerate=SRATE,blocksize=CHUNK,channels=1)  
