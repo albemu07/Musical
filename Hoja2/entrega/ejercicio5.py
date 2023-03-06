@@ -9,22 +9,6 @@ SRATE = 44100
 
 frec = [220 * 2**((i+3)/12) for i in range(14)]
 
-# def addDelay(sound):
-#     delay = 0.2
-#     zeros = np.zeros(np.int64(delay * samplerate))
-#     soundDelayed = np.float32(np.concatenate((zeros, sound), axis=0))
-#     return soundDelayed
-
-# # Función para obtener el array de muestras correspondiente a una nota
-# def get_note_array(note_name):
-#     # Interpolar el array de muestras para obtener la nota correspondiente
-#     #if frequency > samplerate:
-#     xToInt = np.arange(0, len(C), pitch_table[note_name])
-#     x = np.arange(0, len(C), 1)
-#     note_array = np.interp(xToInt, x, C)
-    
-#     return np.float32(note_array)
-
 def KarplusStrong(frec, dur):
     N = SRATE // int(frec) # la frecuencia determina el tamanio del buffer
     buf = np.random.rand(N) * 2 - 1 # buffer inicial: ruido
@@ -41,6 +25,16 @@ def limiter(signal, threshold):
     if max_amplitude > threshold:
         signal = signal * threshold / max_amplitude
     return signal
+
+def getFadeOut(dur):
+    nSamples = int(dur*SRATE)
+    samples = np.ones((int)(5*nSamples/6), dtype=float)
+    
+    # Generate a linear ramp from 1.0 to 0.0
+    samplesFade = np.linspace(1.0, 0.0, (int)(nSamples/6), endpoint=False)
+    samples = np.concatenate([samples, samplesFade])
+    
+    return np.float32(samples)
 
 def main():
 
@@ -66,6 +60,8 @@ def main():
     buff = []
     noteArr = []
 
+    buffFadeOut = getFadeOut(3)
+
     while c!= 'k' and not(end)>0: 
         #modificación de volumen 
         if kb.kbhit():
@@ -87,7 +83,7 @@ def main():
             elif (c == 'u'): note = 13
 
             buff = np.float32(KarplusStrong(frec[note], 3))
-            noteArr += [buff]
+            noteArr += [buff * buffFadeOut]
             # other = np.concatenate((get_note_array(note), np.zeros(np.int64(0.2 * samplerate))))
             # buff = np.float32(np.sum([other, addDelay(get_note_array(note))], axis = 0))
             #print("Vol: ",vol) 
