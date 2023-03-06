@@ -58,6 +58,7 @@ def main():
     i = 0
 
     buff = []
+    noteArr = []
 
     while c!= 'k' and not(end)>0: 
         #modificación de volumen 
@@ -80,19 +81,28 @@ def main():
             elif (c == 'u'): note = 13
 
             buff = np.float32(KarplusStrong(frec[note], 3))
+            noteArr += [buff]
             # other = np.concatenate((get_note_array(note), np.zeros(np.int64(0.2 * samplerate))))
             # buff = np.float32(np.sum([other, addDelay(get_note_array(note))], axis = 0))
             #print("Vol: ",vol) 
 
         # lo pasamos al stream
-        if (len(buff) != 0):
-            stream.write(buff[:CHUNK] * vol) # escribimos al stream
-            buff = buff[CHUNK:]
-            if(len(buff) == 0):
-                buff = []
-            elif(len(buff) < CHUNK):
-                zeros = CHUNK - len(buff)
-                buff = np.float32(np.concatenate((buff, np.zeros(zeros)), axis=0))
+        if (len(noteArr) != 0):
+            sum = 0
+            erase = 0
+            for i in range(len(noteArr)):
+                sum += noteArr[i-erase][:CHUNK]
+                noteArr[i-erase] = noteArr[i-erase][CHUNK:]
+                if(len(noteArr[i-erase]) == 0):
+                    noteArr.remove(noteArr[i-erase])
+                    erase+=1
+                elif(len(noteArr[i-erase]) < CHUNK):
+                    zeros = CHUNK - len(noteArr[i-erase])
+                    noteArr[i-erase] = np.float32(np.concatenate((noteArr[i-erase], np.zeros(zeros)), axis=0))
+            
+            sum /= (len(noteArr) + erase)
+            
+            stream.write(sum * vol) # escribimos al stream
 
     print('end')
 
