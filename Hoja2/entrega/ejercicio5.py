@@ -65,7 +65,7 @@ def main():
     while c!= 'k' and not(end)>0: 
         #modificación de volumen 
         if kb.kbhit():
-            note = 0
+            note = -1
             c = kb.getch()
             if (c == 'z'): note = 0
             elif (c == 'x'): note = 1
@@ -82,11 +82,9 @@ def main():
             elif (c == 'y'): note = 12
             elif (c == 'u'): note = 13
 
-            buff = np.float32(KarplusStrong(frec[note], 3))
-            noteArr += [buff * buffFadeOut]
-            # other = np.concatenate((get_note_array(note), np.zeros(np.int64(0.2 * samplerate))))
-            # buff = np.float32(np.sum([other, addDelay(get_note_array(note))], axis = 0))
-            #print("Vol: ",vol) 
+            if(note != -1):
+                buff = np.float32(KarplusStrong(frec[note], 3))
+                noteArr += [buff * buffFadeOut]
 
         # lo pasamos al stream
         if (len(noteArr) != 0):
