@@ -36,6 +36,12 @@ def KarplusStrong(frec, dur):
         buf[i % N] = 0.5 * (buf[i % N] + buf[(1 + i) % N]) # filtrado
     return samples
 
+def limiter(signal, threshold):
+    max_amplitude = np.max(np.abs(signal))
+    if max_amplitude > threshold:
+        signal = signal * threshold / max_amplitude
+    return signal
+
 def main():
 
     # abrimos stream de salida
@@ -100,7 +106,8 @@ def main():
                     zeros = CHUNK - len(noteArr[i-erase])
                     noteArr[i-erase] = np.float32(np.concatenate((noteArr[i-erase], np.zeros(zeros)), axis=0))
             
-            sum /= (len(noteArr) + erase)
+            #sum /= (len(noteArr) + erase)
+            sum = limiter(sum, 0.99)
             
             stream.write(sum * vol) # escribimos al stream
 
