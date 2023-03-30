@@ -1,0 +1,50 @@
+
+OrilRiver 2.0.3.0 Beta
+Changes:
+
++ Increased the degree of influence of the controller "Diffusion".
++ Excluded the silence flag in VST3 version for more comfortably listening in real time mode for Cubase/Nuendo users.
++ Changed GUI for better its work.
++ Changed some factory presets using a low-pass filter.
+
+OrilRiver 2.0.2.0 Beta
+Changes:
++ support Mac OS X version. 
++ added new graphics interface created by Crimson Merry.
++ changed the EQ gain controllers range, now it is from -24 to 12 dB. 
++ added short manual
+
+OrilRiver 2.0.1.1 Beta
+Changes:
++ Fixed error displaying the GUI in the VST2 version in some hosts.
+
+OrilRiver 2.0.1.0 Beta
+Changes:
++ New graphic interface created by Vitaliy Lytovchenko.
++ Added the modulation block with two parameters: 
+	Modulation speed and Modulation depth.
++ Added some new presets.
++ Assembler code for sound processing is more optimized.
++ Added two variation of reverberation and other trivia.
+
+
+
+OrilRiver 1.0.3
+Changes:
+
++ Fixed a bug with the correct saving and loading presets, in particular parameter "Decay time".
+
+OrilRiver 1.0.2
+Changes:
+
++ Fixed a problem that the frequency parameters can not be automated in some hosts
++ VST 3 support for Windows
+
+
+OrilRiver 1.0.1
+Changes:
+
++ logarithmic scale of frequency parameters.
++ parameter E.R. +6dB. If you have a project or a preset that uses an older version of the plugin, the parameter will automatically be adapted to the new version.
++ fixed bug with wrong display of parameter values at the start of the plugin.
+
