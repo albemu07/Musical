@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.78/win64" 1679521753
+<REAPER_PROJECT 0.1 "6.64/win64" 1680183021
   <NOTES 0 2
   >
   RIPPLE 0
@@ -16,9 +16,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 0.27451722446173
-  ZOOM 2.90107459248146 0 0
-  VZOOMEX 0 217
+  CURSOR 1.56731482705959
+  ZOOM 11.38723388698413 0 0
+  VZOOMEX 0 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -30,11 +30,10 @@
   >
   <APPLYFX_CFG
   >
-  RENDER_FILE ""
-  RENDER_PATTERN ""
-  RENDER_FMT 0 2 0
+  RENDER_FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\secondProject\secondProject\IWantToBreakFree.mp3"
+  RENDER_FMT 0 2 44100
   RENDER_1X 0
-  RENDER_RANGE 1 0 0 18 1000
+  RENDER_RANGE 2 0 0 18 1000
   RENDER_RESAMPLE 3 0 1
   RENDER_ADDTOPROJ 0
   RENDER_STEMS 0
@@ -46,7 +45,7 @@
   TAKELANE 1
   SAMPLERATE 44100 0 0
   <RENDER_CFG
-    ZXZhdxgAAQ==
+    bDNwbYAAAAAAAAAAAgAAAP////8EAAAAgAAAAAAAAAA=
   >
   LOCK 1
   <METRONOME 6 2
@@ -60,10 +59,10 @@
   GLOBAL_AUTO -1
   TEMPO 108.92 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 12.54044593563805 19.84010849518856
-  SELECTION2 12.54044593563805 19.84010849518856
+  SELECTION 0 256.40290998927992
+  SELECTION2 0 256.40290998927992
   MASTERAUTOMODE 0
-  MASTERTRACKHEIGHT 67 0
+  MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
   MASTERMUTESOLO 0
   MASTERTRACKVIEW 1 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0
@@ -162,7 +161,7 @@
     ISBUS 1 1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -210,9 +209,9 @@
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 1 0 0 0 0
+    BUSCOMP 2 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -236,10 +235,10 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -250,7 +249,7 @@
     <ITEM
       POSITION 0.256
       SNAPOFFS 0
-      LENGTH 256.17083333333335
+      LENGTH 12.81278901847955
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
@@ -266,7 +265,73 @@
       CHANMODE 0
       GUID {1CD60BF0-7722-4956-8191-3BA151DB195B}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\secondProject\I Want to Break Free\Room2.ogg"
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Room2.ogg"
+      >
+    >
+    <ITEM
+      POSITION 6.6122750114737
+      SNAPOFFS 0
+      LENGTH 6.26672051729502
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 2.528233 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {54F2324E-2D66-45C7-A984-ED5B26F8D58C}
+      IID 15
+      NAME Room2.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 12.81278901847955
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {000CD9E7-401A-4D3E-A555-41335E6A26D0}
+      <SOURCE VORBIS
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Room2.ogg"
+      >
+    >
+    <ITEM
+      POSITION 13.06878901847955
+      SNAPOFFS 0
+      LENGTH 6.26672051729501
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {265DFFE0-3F6C-42BB-95BE-1C1044D2F558}
+      IID 15
+      NAME Room2.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 12.81278901847955
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2C48E455-2F38-45D8-B900-2518E2C37EB8}
+      <SOURCE VORBIS
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Room2.ogg"
+      >
+    >
+    <ITEM
+      POSITION 19.33550953577456
+      SNAPOFFS 0
+      LENGTH 237.0913237975588
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F2383D55-FE27-44CD-BED5-1907373271FF}
+      IID 15
+      NAME Room2.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 19.07950953577456
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9F41E30F-460C-46EC-B4C6-DD609B77597F}
+      <SOURCE VORBIS
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Room2.ogg"
       >
     >
   >
@@ -282,10 +347,10 @@
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -296,7 +361,7 @@
     <ITEM
       POSITION 0.256
       SNAPOFFS 0
-      LENGTH 256.17083333333335
+      LENGTH 12.81278901847955
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
@@ -312,7 +377,73 @@
       CHANMODE 0
       GUID {26142BF3-36C0-4A1F-B0D1-72FC1385DE78}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\secondProject\I Want to Break Free\Room1.ogg"
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Room1.ogg"
+      >
+    >
+    <ITEM
+      POSITION 6.6122750114737
+      SNAPOFFS 0
+      LENGTH 6.26672051729502
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 2.528233 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0A436778-1B99-4E87-B1AD-9ED230E08287}
+      IID 14
+      NAME Room1.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 12.81278901847955
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B662964C-847A-463B-BB1E-16BCCB443117}
+      <SOURCE VORBIS
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Room1.ogg"
+      >
+    >
+    <ITEM
+      POSITION 13.06878901847955
+      SNAPOFFS 0
+      LENGTH 6.26672051729501
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0D32D518-2359-440B-B7C5-CD7B0D12B9AC}
+      IID 14
+      NAME Room1.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 12.81278901847955
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DE23F97E-89D0-4638-8DDF-C4B9BAA60EA0}
+      <SOURCE VORBIS
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Room1.ogg"
+      >
+    >
+    <ITEM
+      POSITION 19.33550953577456
+      SNAPOFFS 0
+      LENGTH 237.0913237975588
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7F8D5CE5-2626-4F4C-AB06-ABAD60666319}
+      IID 14
+      NAME Room1.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 19.07950953577456
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {789C3F7F-2F45-4CD7-840A-A80395387D13}
+      <SOURCE VORBIS
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Room1.ogg"
       >
     >
   >
@@ -326,9 +457,9 @@
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 1 0 0 0 0
+    BUSCOMP 2 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -352,10 +483,10 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -382,7 +513,7 @@
       CHANMODE 0
       GUID {2909325D-5E5D-40D6-891F-DBC6C113F98A}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\secondProject\I Want to Break Free\Snare2.ogg"
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Snare2.ogg"
       >
     >
   >
@@ -398,10 +529,10 @@
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -428,7 +559,7 @@
       CHANMODE 0
       GUID {4856E62E-DFF7-47B9-8788-82C3467D8533}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\secondProject\I Want to Break Free\Snare1.ogg"
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Snare1.ogg"
       >
     >
   >
@@ -444,7 +575,7 @@
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -458,7 +589,7 @@
     <ITEM
       POSITION 0.25649303837413
       SNAPOFFS 0
-      LENGTH 256.17083333333352
+      LENGTH 41.46759807969908
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
@@ -474,7 +605,337 @@
       CHANMODE 0
       GUID {8FA56115-35DC-4B18-97AD-F104E64F9C4B}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\secondProject\I Want to Break Free\Kick.ogg"
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+      >
+    >
+    <ITEM
+      POSITION 41.72409111807321
+      SNAPOFFS 0
+      LENGTH 0.34968762079909
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BE6706AD-3914-44EA-98B3-4D0CD9FD8DC2}
+      IID 1
+      NAME Kick.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 41.46759807969908
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BDDFFAF0-C3D0-4A38-84E7-69D8F0A30F65}
+      <SOURCE VORBIS
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+      >
+    >
+    <ITEM
+      POSITION 42.0737787388723
+      SNAPOFFS 0
+      LENGTH 214.35354763283533
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {24EDCFE2-1102-4FC8-AEE1-576344337D03}
+      IID 1
+      NAME Kick.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 41.81728570049817
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {587BEED8-F10A-4B45-8AAE-324B91C56921}
+      <SOURCE VORBIS
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+      >
+    >
+    <ITEM
+      POSITION 43.38604891919132
+      SNAPOFFS 0
+      LENGTH 0.34968762079908
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FDB66BAA-917C-4759-A2B6-5ED738ED7926}
+      IID 1
+      NAME Kick.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 41.46759807969908
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D80694CE-ACE9-4D86-9023-2EAF1677D0BF}
+      <SOURCE VORBIS
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+      >
+    >
+    <ITEM
+      POSITION 45.5880998143611
+      SNAPOFFS 0
+      LENGTH 0.34968762079912
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B2C48B8C-F757-45B6-BAFB-EC00DFFE655E}
+      IID 1
+      NAME Kick.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 41.46759807969908
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6DC22C02-58F7-44E2-BC52-1F964E66E937}
+      <SOURCE VORBIS
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+      >
+    >
+    <ITEM
+      POSITION 47.79015070953088
+      SNAPOFFS 0
+      LENGTH 0.34968762079908
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EB182D18-D1E7-4E38-97ED-EDDC020CBB26}
+      IID 1
+      NAME Kick.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 41.46759807969908
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {32D49F28-59F6-4091-A26E-68A5D40FD94A}
+      <SOURCE VORBIS
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+      >
+    >
+    <ITEM
+      POSITION 50.00349417339385
+      SNAPOFFS 0
+      LENGTH 0.34968762079908
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D039CE11-05BA-4A7B-8CCE-680AD2DA646A}
+      IID 1
+      NAME Kick.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 41.46759807969908
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9F426553-E1F4-4A6D-869B-5B42A2472D96}
+      <SOURCE VORBIS
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+      >
+    >
+    <ITEM
+      POSITION 52.20554506856363
+      SNAPOFFS 0
+      LENGTH 0.34968762079908
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F8ACE151-7A8A-4153-B837-523A9E6C0B14}
+      IID 1
+      NAME Kick.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 41.46759807969908
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CAB64028-62A3-4BE5-A360-273503FF756D}
+      <SOURCE VORBIS
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+      >
+    >
+    <ITEM
+      POSITION 54.40821481796744
+      SNAPOFFS 0
+      LENGTH 0.34968762079911
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C6C5A32D-9520-4869-BB37-67D7556247AD}
+      IID 1
+      NAME Kick.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 41.46759807969908
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5A9193C6-9FC5-4607-90FC-A42B955604B7}
+      <SOURCE VORBIS
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+      >
+    >
+    <ITEM
+      POSITION 56.60964685890317
+      SNAPOFFS 0
+      LENGTH 0.3496876207991
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1CDABD0E-1CE4-439C-AB42-BBBC3E54B59F}
+      IID 1
+      NAME Kick.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 41.46759807969908
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {01F9E1ED-CF25-4382-ADA1-CD1AF17E4992}
+      <SOURCE VORBIS
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+      >
+    >
+    <ITEM
+      POSITION 58.8333527102368
+      SNAPOFFS 0
+      LENGTH 0.34968762079911
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0FEF0744-9EE2-446C-91A1-555EFC3CFE20}
+      IID 1
+      NAME Kick.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 41.46759807969908
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DA1E3B14-9230-4980-B12E-EEBDE2BC6993}
+      <SOURCE VORBIS
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+      >
+    >
+    <ITEM
+      POSITION 61.02048982944109
+      SNAPOFFS 0
+      LENGTH 0.34968762079911
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F28BECA8-9E7D-4D1D-9E6C-651F8E7BE953}
+      IID 1
+      NAME Kick.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 41.46759807969908
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E916AC13-A114-4459-B032-66FB9BC535B8}
+      <SOURCE VORBIS
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+      >
+    >
+    <ITEM
+      POSITION 63.22987979721717
+      SNAPOFFS 0
+      LENGTH 0.3496876207991
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {900CA3CC-B793-47BD-AE26-562819CFA5CD}
+      IID 1
+      NAME Kick.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 41.46759807969908
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6437F210-C37A-4D51-B378-41DA06369B23}
+      <SOURCE VORBIS
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+      >
+    >
+    <ITEM
+      POSITION 65.42337487313871
+      SNAPOFFS 0
+      LENGTH 0.34968762079909
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {05FB6100-2060-4BAB-AF01-969E2A38D0EC}
+      IID 1
+      NAME Kick.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 41.46759807969908
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7C7973C6-EC0B-47A4-B9CD-813D7BCECD02}
+      <SOURCE VORBIS
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+      >
+    >
+    <ITEM
+      POSITION 67.63276484091479
+      SNAPOFFS 0
+      LENGTH 0.34968762079912
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2FFEA5B5-8D32-4296-91A1-C5728A828D1C}
+      IID 1
+      NAME Kick.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 41.46759807969908
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {45538C12-B0A3-41CF-ABF7-D653372EF2AC}
+      <SOURCE VORBIS
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+      >
+    >
+    <ITEM
+      POSITION 69.82625991683635
+      SNAPOFFS 0
+      LENGTH 0.34968762079906
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D0B0DB8A-59CE-4273-9D53-7EE0739ADE26}
+      IID 1
+      NAME Kick.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 41.46759807969908
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E7557A0D-20DA-4EA9-908C-FB712809AD53}
+      <SOURCE VORBIS
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
       >
     >
   >
@@ -484,13 +945,13 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 2 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 1 0 0 0 0
+    BUSCOMP 2 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -510,38 +971,41 @@
       <VST "VST: ReaDelay (Cockos)" readelay.dll 0 "" 1919247468<5653547265646C72656164656C617900> ""
         bGRlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAATAAAAAEAAAAAABAA
         AAAAAAAAAAABAAAALAAAAAIAAAAAAAAAAAAAAImnez8AAAAAAACAP4jAaTgAAAA8PqhWPAAAgD9LXMc8AACAPwAAgD8AAIA/AAAAPw==
-        AFByb2dyYW0gMQAQAAAA
+        AAAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {23620623-9CCD-4FFC-8A6A-E71D30615116}
-      <PARMENV 0:_Wet 0 2 1 "Wet / ReaDelay"
+      <PARMENV 0:_Wet 0 2 1
         EGUID {478B8C54-4DDE-46ED-8EEC-F98A5924FCD6}
         ACT 1 -1
         VIS 1 1 1
         LANEHEIGHT 0 0
         ARM 0
         DEFSHAPE 0 -1 -1
-        PT 0 0 0
-        PT 22.96052669 0 0
-        PT 23.71405749 0.38 0
-        PT 42.19772474 0.38 0
-        PT 42.72962883 0 0
-        PT 95.78706214 0 0
-        PT 96.80654498 0.38 0
-        PT 126.50452352 0.38 0
-        PT 127.1250783 0 0
-        PT 143.34815315 0 0
-        PT 143.8357319 0.38 0
-        PT 148.09096464 0.38 0
-        PT 148.44556737 0 0
-        PT 170.82986463 0 0
-        PT 171.84934748 0.38 0
-        PT 187.80647028 0.38 0
-        PT 188.60432642 0 0
-        PT 206.06851082 0 0
-        PT 206.77771627 0.38 0
-        PT 222.8678151 0.38 0
-        PT 223.26674317 0 0
+        PT 0 0 0 0 1
+        PT 0.000001 0 0 0 1
+        PT 22.96052669 0 0 0 1
+        PT 23.71405749 0.34 0 0 1
+        PT 42.19772474 0.34 0 0 1
+        PT 42.72962883 0 0 0 1
+        PT 95.78706214 0 0 0 1
+        PT 96.80654498 0.34 0 0 1
+        PT 126.50452352 0.34 0 0 1
+        PT 127.1250783 0 0 0 1
+        PT 143.34815315 0 0 0 1
+        PT 143.8357319 0.34 0 0 1
+        PT 148.09096464 0.34 0 0 1
+        PT 148.44556737 0 0 0 1
+        PT 170.82986463 0 0 0 1
+        PT 171.84934748 0.34 0 0 1
+        PT 187.80647028 0.34 0 0 1
+        PT 188.60432642 0 0 0 1
+        PT 206.06851082 0 0 0 1
+        PT 206.77771627 0.34 0 0 1
+        PT 222.8678151 0.34 0 0 1
+        PT 223.26674317 0 0 0 1
+        PT 256.40290899 0 0 0 1
+        PT 256.40340999 0 0
       >
       WAK 0 0
     >
@@ -552,16 +1016,16 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 2 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 1 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -582,10 +1046,10 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -612,7 +1076,7 @@
       CHANMODE 0
       GUID {4F8082F2-BB4D-450D-8B1E-DECBC06188E1}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\secondProject\I Want to Break Free\LeadGuitar2.ogg"
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\LeadGuitar2.ogg"
       >
     >
   >
@@ -628,10 +1092,10 @@
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -658,7 +1122,7 @@
       CHANMODE 0
       GUID {1EC971C7-A45D-4B38-B1D7-7AAC89AF781E}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\secondProject\I Want to Break Free\LeadGuitar1.ogg"
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\LeadGuitar1.ogg"
       >
     >
   >
@@ -674,10 +1138,10 @@
     ISBUS 1 1
     BUSCOMP 1 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -698,10 +1162,10 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -728,7 +1192,7 @@
       CHANMODE 0
       GUID {DBECBACE-FF4C-4B57-976F-014FF10242D9}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\secondProject\I Want to Break Free\AcousticGuitar2.ogg"
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\AcousticGuitar2.ogg"
       >
     >
   >
@@ -744,10 +1208,10 @@
     ISBUS 2 -2
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -774,7 +1238,7 @@
       CHANMODE 0
       GUID {78E8E0C3-F079-4CDE-8FFD-957510027712}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\secondProject\I Want to Break Free\AcousticGuitar1.ogg"
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\AcousticGuitar1.ogg"
       >
     >
   >
@@ -788,9 +1252,9 @@
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 0 0 0 0 0
+    BUSCOMP 2 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -814,10 +1278,10 @@
     ISBUS 1 1
     BUSCOMP 1 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -838,10 +1302,10 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -868,7 +1332,7 @@
       CHANMODE 0
       GUID {A258D0AD-693F-4549-846B-F3F4E3123CC5}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\secondProject\I Want to Break Free\Vocals2.ogg"
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Vocals2.ogg"
       >
     >
   >
@@ -884,10 +1348,10 @@
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -914,7 +1378,7 @@
       CHANMODE 0
       GUID {28C906D2-85FA-4BBB-9145-2B16E06727E9}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\secondProject\I Want to Break Free\Vocals1.ogg"
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Vocals1.ogg"
       >
     >
   >
@@ -930,10 +1394,10 @@
     ISBUS 1 1
     BUSCOMP 1 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -954,10 +1418,10 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -984,7 +1448,7 @@
       CHANMODE 0
       GUID {B87388D4-B4C0-45D3-97B6-5DA5426AB2CB}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\secondProject\I Want to Break Free\BackingVocals2.ogg"
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\BackingVocals2.ogg"
       >
     >
   >
@@ -1003,7 +1467,7 @@
     SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -1030,12 +1494,12 @@
       CHANMODE 0
       GUID {2C7BF30B-D58D-4B53-AC38-A32DB575B59B}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\secondProject\I Want to Break Free\BackingVocals1.ogg"
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\BackingVocals1.ogg"
       >
     >
   >
   <TRACK {91EF78B1-B050-430C-9F03-EED06EC56F74}
-    NAME ""
+    NAME Bajo
     PEAKCOL 33521919
     BEAT -1
     AUTOMODE 0
@@ -1046,7 +1510,7 @@
     ISBUS 1 1
     BUSCOMP 1 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -1067,7 +1531,7 @@
         cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArAAAAAEAAAAAABAA
         IQAAAAQAAAADAAAAAQAAAPaU4gG3c4FAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAGouf95Oi4xAKAGVctwoCEAAAAAAAAAAQAEIAAAAAQAAAK0SX0o+vsBANAGVctwo
         CEAAAAAAAAAAQAEBAAAAAQAAAPzn4+0X1spAoK4d+XBY9D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAP0BAABcAQAAAgAAAA==
-        AFByb2dyYW0gMQAQAAAA
+        AAAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {69A8CB19-1ABE-4269-ACB5-6184CDBC7E64}
@@ -1086,7 +1550,7 @@
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -1116,12 +1580,12 @@
       CHANMODE 0
       GUID {E7CDFDE7-9FCD-4B83-9A29-D1BA924A18E4}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\secondProject\I Want to Break Free\Bass.ogg"
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Bass.ogg"
       >
     >
   >
   <TRACK {1964ACAA-1809-4F6C-BBA7-C380FF873026}
-    NAME ""
+    NAME Sintes
     PEAKCOL 25073703
     BEAT -1
     AUTOMODE 0
@@ -1130,9 +1594,9 @@
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 1 0 0 0 0
+    BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -1174,7 +1638,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -1204,7 +1668,7 @@
       CHANMODE 0
       GUID {A213DFDF-79E7-4887-B9C7-F39DE9050D7E}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\secondProject\I Want to Break Free\Keys1.ogg"
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Keys1.ogg"
       >
     >
   >
@@ -1220,7 +1684,7 @@
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -1250,8 +1714,54 @@
       CHANMODE 0
       GUID {1F86485E-2521-42F1-A4AA-8C4B16613934}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\secondProject\I Want to Break Free\Keys2.ogg"
+        FILE "C:\Users\usuario_local\Documents\GitHub\Musical\Reaper\thirdProject\I Want to Break Free\Keys2.ogg"
       >
+    >
+  >
+  <TRACK {831544FF-7FA7-48C0-8EF7-F012A88695AC}
+    NAME Reverb
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {831544FF-7FA7-48C0-8EF7-F012A88695AC}
+    PERF 0
+    AUXRECV 1 0 0.17782794100389 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 4 0 0.17782794100389 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 7 0 0.17782794100389 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 8 0 0.17782794100389 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 15 0 0.17782794100389 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 24 0 0.17782794100389 0 0 0 0 0 0 -1:U 0 -1 ''
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 24 52 655 408
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: OrilRiver (x86) (Denis Tihanov)" OrilRiver.dll 0 "" 1953983342<56535474776B6E6F72696C7269766572> ""
+        bmt3dO5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAtwAAAAEAAAAAABAA
+        pwAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAACamZmZmZm5PwAAAAAAAPA/AAAAIDcR2D8AAABg4XrgPwAAAOCjcOE/AAAA4HoU4j8AAAAgp5jcPwAAAICduec/
+        AAAAgD0K5z+wkf4W9wHhPwAAACAAAOg/cBFBJwSH5T8AAAAAAADoPwAAAAAAAPA/AAAAAF/x5T8AAAAAAADwPwIBAAAAAAAAAAAAKVzXP5ZDi2zn+9k/
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {EED2529D-F5F2-44DA-AAC6-2ADA9EE66F7C}
+      WAK 0 0
     >
   >
 >
