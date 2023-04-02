@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.78/win64" 1680452236
+<REAPER_PROJECT 0.1 "6.77/win64" 1680466899
   <NOTES 0 2
   >
   RIPPLE 0
@@ -16,9 +16,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 36.58700549417221
-  ZOOM 4.08341699415103 0 0
-  VZOOMEX 0 138
+  CURSOR 211.76338016913215
+  ZOOM 12.60841226593338 2518 0
+  VZOOMEX 0 50
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -30,7 +30,7 @@
   >
   <APPLYFX_CFG
   >
-  RENDER_FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\secondProject\secondProject\IWantToBreakFree.mp3"
+  RENDER_FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\kick5.wav"
   RENDER_FMT 0 2 44100
   RENDER_1X 0
   RENDER_RANGE 2 0 0 18 1000
@@ -45,7 +45,7 @@
   TAKELANE 1
   SAMPLERATE 44100 0 0
   <RENDER_CFG
-    bDNwbYAAAAAAAAAAAgAAAP////8EAAAAgAAAAAAAAAA=
+    ZXZhdxgAAQ==
   >
   LOCK 1
   <METRONOME 6 2
@@ -59,8 +59,8 @@
   GLOBAL_AUTO -1
   TEMPO 108.92 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 0 0
-  SELECTION2 0 0
+  SELECTION 231.38750803665275 231.51726664089591
+  SELECTION2 231.38750803665275 231.51726664089591
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -68,7 +68,7 @@
   MASTERTRACKVIEW 1 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0
   MASTERHWOUT 0 0 1 0 0 0 0 -1
   MASTER_NCH 2 2
-  MASTER_VOLUME 0.91693835004149 0 -1 -1 1
+  MASTER_VOLUME 0.1608336808602 0 -1 -1 1
   MASTER_PANMODE 3
   MASTER_FX 1
   MASTER_SEL 0
@@ -149,6 +149,9 @@
   MARKER 6 153.54787446349505 PaneoAuto 0 0 1 R {FBA90119-0421-4482-A8F7-251845AA4EB0}
   <PROJBAY
   >
+  <KEYSIG
+    0 0 1 0xAB5
+  >
   <TRACK {F69127C6-A236-4941-8CF4-C256CACE965C}
     NAME Bateria
     PEAKCOL 16576
@@ -164,6 +167,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
+    MIDICTL -1 4
     TRACKHEIGHT 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
@@ -198,6 +202,602 @@
       POOLEDENVINST 2 154.03766034695118 34.28501184192871 0 1 0 0.5 1 1 0 0 2 0 0 0.012 0
       PT 0 0 0
     >
+    <ITEM
+      POSITION 189.52125326695386
+      SNAPOFFS 0
+      LENGTH 24.79913434092282
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {695BA50E-A5D3-49FA-BEA2-1107E0019D33}
+      IID 73
+      NAME "MIDI untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {58FFE5FF-4173-4643-9350-13455442BB72}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {526C51DB-8F56-4AFF-9EF9-D61F5E7C4684}
+        E 4 90 24 01
+        E 360 80 24 00
+        E 600 90 26 7f
+        E 480 90 24 7f
+        E 360 80 24 00
+        E 120 80 26 00
+        E 0 90 24 7f
+        E 360 80 24 00
+        E 600 90 26 7f
+        E 960 80 26 00
+        E 14 90 24 7f
+        E 360 80 24 00
+        E 586 90 26 7f
+        E 494 90 24 7f
+        E 360 80 24 00
+        e 102 90 24 01
+        E 4 80 26 00
+        e 356 80 24 00
+        E 604 90 26 01
+        E 960 80 26 00
+        E 0 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {21591BB9-4AF2-4D72-8B9F-4B14F27CBC34}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 64
+        VELLANE -1 100 0
+        CFGEDITVIEW 42796.465593 0.089258 71 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL -252
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 -14 176 973 906 0 0 0 0 0 0 0 0 0 0.5 0 1 1 64
+      >
+    >
+  >
+  <TRACK {0D35ED9B-881D-4CCB-A0F2-5746992EE841}
+    NAME MIDI
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    MIDICTL -1 1
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {0D35ED9B-881D-4CCB-A0F2-5746992EE841}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+    <ITEM
+      POSITION 20.37746144904779
+      SNAPOFFS 0
+      LENGTH 19.61568718927031
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D0E74811-F554-4B3F-971F-1BAA659B489E}
+      IID 73
+      NAME "MIDI untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5A1A3E1C-99D1-4870-93A2-6FA812323DB1}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {FB748F7B-5B5A-4F5B-BFBE-A2058AA5852D}
+        E 8 90 27 7f
+        E 960 80 27 00
+        E 950 90 27 7f
+        E 960 80 27 00
+        E 960 90 27 7f
+        E 960 80 27 00
+        E 970 90 27 7f
+        E 960 80 27 00
+        E 960 90 27 7f
+        E 960 80 27 00
+        E 960 90 27 7f
+        E 960 80 27 00
+        E 960 90 27 7f
+        E 960 80 27 00
+        E 960 90 27 7f
+        E 960 80 27 00
+        E 960 90 27 7f
+        E 960 80 27 00
+        E 960 90 27 7f
+        E 960 80 27 00
+        E 960 90 27 7f
+        E 960 80 27 00
+        E 960 90 27 7f
+        E 960 80 27 00
+        E 960 90 27 7f
+        E 960 80 27 00
+        E 960 90 27 7f
+        E 960 80 27 00
+        E 960 90 27 7f
+        E 960 80 27 00
+        E 960 90 27 7f
+        E 960 80 27 00
+        e 960 90 27 7f
+        e 960 80 27 00
+        e 960 90 27 7f
+        e 960 80 27 00
+        E 14918 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {21591BB9-4AF2-4D72-8B9F-4B14F27CBC34}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 64
+        VELLANE -1 100 0
+        CFGEDITVIEW -35512.209616 0.00777 72 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL -252
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 630 370 1704 1100 0 0 0 0 0 0 0 0 0 0.5 0 1 1 64
+      >
+    >
+    <ITEM
+      POSITION 41.86318510775332
+      SNAPOFFS 0
+      LENGTH 28.78520803086138
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A3BA2EF3-521A-4668-A3BE-A3B9986E3C6B}
+      IID 73
+      NAME "MIDI untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F6F68FFC-AD9C-41AA-A72F-3E3B74DF7DC0}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {4B7C6279-33D7-45E7-B0BD-035FA05C17A1}
+        E 4 90 24 7f
+        E 360 80 24 00
+        E 600 90 26 7f
+        E 480 90 24 7f
+        E 360 80 24 00
+        E 120 80 26 00
+        E 0 90 24 7f
+        E 360 80 24 00
+        E 600 90 26 7f
+        E 960 80 26 00
+        E 14 90 24 7f
+        E 360 80 24 00
+        E 586 90 26 7f
+        E 494 90 24 7f
+        E 360 80 24 00
+        e 102 90 24 7f
+        E 4 80 26 00
+        e 356 80 24 00
+        E 604 90 26 7f
+        E 960 80 26 00
+        E 0 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {21591BB9-4AF2-4D72-8B9F-4B14F27CBC34}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 64
+        VELLANE -1 100 0
+        CFGEDITVIEW 42796.465593 0.089258 71 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL -252
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 -14 176 973 906 0 0 0 0 0 0 0 0 0 0.5 0 1 1 64
+      >
+    >
+    <ITEM
+      POSITION 72.71860888446847
+      SNAPOFFS 0
+      LENGTH 53.13021758376145
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {03B25BF8-1FDD-4541-8505-F484E25FD5D8}
+      IID 73
+      NAME "MIDI untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A0052C74-8856-4B72-98E9-E208D344D2CD}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {54ED559D-CD32-494A-8A86-20F2243AE6C2}
+        E 4 90 24 7f
+        E 360 80 24 00
+        E 600 90 26 7f
+        E 480 90 24 7f
+        E 360 80 24 00
+        E 120 80 26 00
+        E 0 90 24 7f
+        E 360 80 24 00
+        E 600 90 26 7f
+        E 960 80 26 00
+        E 14 90 24 7f
+        E 360 80 24 00
+        E 586 90 26 7f
+        E 494 90 24 7f
+        E 360 80 24 00
+        e 102 90 24 7f
+        E 4 80 26 00
+        e 356 80 24 00
+        E 604 90 26 7f
+        E 960 80 26 00
+        E 0 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {21591BB9-4AF2-4D72-8B9F-4B14F27CBC34}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 64
+        VELLANE -1 100 0
+        CFGEDITVIEW 11169.048443 0.089258 71 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL -252
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 -14 176 973 906 0 0 0 0 0 0 0 0 0 0.5 0 1 1 64
+      >
+    >
+    <ITEM
+      POSITION 127.79881763738375
+      SNAPOFFS 0
+      LENGTH 24.79913434092278
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2D52C8E7-4504-4B6D-856F-88E747394BD7}
+      IID 73
+      NAME "MIDI untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8FB3CEBC-6F97-4B7D-8267-790927821A23}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {627B89D6-01B3-44E3-A62C-5B94A5355F6D}
+        E 4 90 24 7f
+        E 360 80 24 00
+        E 600 90 26 7f
+        E 480 90 24 7f
+        E 360 80 24 00
+        E 120 80 26 00
+        E 0 90 24 7f
+        E 360 80 24 00
+        E 600 90 26 7f
+        E 960 80 26 00
+        E 14 90 24 7f
+        E 360 80 24 00
+        E 586 90 26 7f
+        E 494 90 24 7f
+        E 360 80 24 00
+        e 102 90 24 7f
+        E 4 80 26 00
+        e 356 80 24 00
+        E 604 90 26 7f
+        E 960 80 26 00
+        E 0 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {21591BB9-4AF2-4D72-8B9F-4B14F27CBC34}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 64
+        VELLANE -1 100 0
+        CFGEDITVIEW -437.754309 0.089258 71 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL -252
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 -14 176 973 906 0 0 0 0 0 0 0 0 0 0.5 0 1 1 64
+      >
+    >
+    <ITEM
+      POSITION 154.21101042565371
+      SNAPOFFS 0
+      LENGTH 33.32342694887873
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {63A75949-8F6A-4A5B-8B08-EC71E1859D1D}
+      IID 73
+      NAME "MIDI untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C6E43376-C20C-4728-9E22-F14EE29D5A07}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {F5D5285B-38AD-408E-85B2-9FDB8E78C541}
+        E 4 90 24 7f
+        E 360 80 24 00
+        E 600 90 26 7f
+        E 480 90 24 7f
+        E 360 80 24 00
+        E 120 80 26 00
+        E 0 90 24 7f
+        E 360 80 24 00
+        E 600 90 26 7f
+        E 960 80 26 00
+        E 14 90 24 7f
+        E 360 80 24 00
+        E 586 90 26 7f
+        E 494 90 24 7f
+        E 360 80 24 00
+        e 102 90 24 7f
+        E 4 80 26 00
+        e 356 80 24 00
+        E 604 90 26 7f
+        E 960 80 26 00
+        E 0 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {21591BB9-4AF2-4D72-8B9F-4B14F27CBC34}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 64
+        VELLANE -1 100 0
+        CFGEDITVIEW -581.00884 0.066587 71 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL -252
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 -14 176 973 906 0 0 0 0 0 0 0 0 0 0.5 0 1 1 64
+      >
+    >
+    <ITEM
+      POSITION 189.51881497527938
+      SNAPOFFS 0
+      LENGTH 33.3234269488787
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CB8D49A2-3CB9-4A4C-99CE-9DEC47F34D84}
+      IID 73
+      NAME "MIDI untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B0DCFEEC-F715-4CC3-B7B8-4FAA9D6FEC83}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {766DCA87-0E61-40CB-833F-8E34E76BBFC6}
+        E 0 90 24 7f
+        E 360 80 24 00
+        E 604 90 26 7f
+        E 480 90 24 7f
+        E 360 80 24 00
+        E 120 80 26 00
+        E 0 90 24 7f
+        E 360 80 24 00
+        E 600 90 26 7f
+        E 960 80 26 00
+        E 14 90 24 7f
+        E 360 80 24 00
+        E 586 90 26 7f
+        E 494 90 24 7f
+        E 360 80 24 00
+        E 102 90 24 01
+        E 4 80 26 00
+        E 12 90 24 7f
+        E 344 80 24 00
+        E 70 80 24 00
+        e 480 90 26 7f
+        e 960 80 26 00
+        E 54 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {21591BB9-4AF2-4D72-8B9F-4B14F27CBC34}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 64
+        VELLANE -1 100 0
+        CFGEDITVIEW 44170.690772 0.056165 71 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL -252
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 -14 176 973 906 0 0 0 0 0 0 0 0 0 0.5 0 1 1 64
+      >
+    >
+    <ITEM
+      POSITION 224.74537982733455
+      SNAPOFFS 0
+      LENGTH 22.24069885919278
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {26E3F3F1-9A48-4A73-850E-768DDAF72EFF}
+      IID 73
+      NAME "MIDI untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {53092E1F-DDC4-4760-ACB5-FBA58B7F4418}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {3EBA57C7-D84A-41B6-A2E0-8EAAF89FD437}
+        E 8 90 24 7f
+        E 360 80 24 00
+        E 596 90 26 7f
+        E 480 90 24 7f
+        E 360 80 24 00
+        E 120 80 26 00
+        E 0 90 24 7f
+        E 360 80 24 00
+        E 600 90 26 7f
+        E 960 80 26 00
+        E 14 90 24 7f
+        E 360 80 24 00
+        E 586 90 26 7f
+        E 494 90 24 7f
+        E 360 80 24 00
+        E 106 80 26 00
+        E 8 90 24 7f
+        E 360 80 24 00
+        e 592 90 26 7f
+        e 960 80 26 00
+        E 0 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {21591BB9-4AF2-4D72-8B9F-4B14F27CBC34}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 64
+        VELLANE -1 100 0
+        CFGEDITVIEW -924.935894 0.0419 71 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL -252
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 -14 176 973 906 0 0 0 0 0 0 0 0 0 0.5 0 1 1 64
+      >
+    >
+  >
+  <TRACK {E668AF62-ECCE-4F8E-97F1-A4C1965CDB71}
+    NAME midi-kick
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.72056191779384 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {E668AF62-ECCE-4F8E-97F1-A4C1965CDB71}
+    PERF 0
+    AUXRECV 1 0 1 0 0 0 0 -1 0 -1:U 0 -1 ''
+    AUXRECV 1 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 3 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    MIDIOUT -32
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 847 308 730 630
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSamplOmatic5000 (Cockos)" reasamplomatic.dll 0 "" 1920167789<56535472736F6D72656173616D706C6F> ""
+        bW9zcu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABRAQAAAQAAAAAAEAA=
+        QzpcVXNlcnNcYWxtdWZcRG9jdW1lbnRzXFJlcG9zXE11c2ljYWxcUmVhcGVyXHRoaXJkUHJvamVjdFxraWNrNS53YXYAeNT2dM0w5D8AAAAAAADgPwAAAAAAAAAAiUQi
+        kUgk0j+JRCKRSCTSP5qZmZmZmbE/zczMzMzM6z8AAAAAAAAAABzHcRzHcdw/NvTwMZTAQT/8qfHSTWJAPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPA/AAAA
+        AAAA4D8BAAAAAAAAAAAAAAAAAAAAAADwP0AAAABVVVVVVVXFP/////8IBAKBQCCAPwAAAAAAAPA/AAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AM6kISEaZZA/AAAAAAAA8D/8qfHSTWIwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {C7070DDE-56D7-440E-9EFB-DAE4063C4E76}
+      WAK 0 0
+    >
+  >
+  <TRACK {594CA07F-4DAE-4B67-B1C9-5FE27EEF60EA}
+    NAME midi-snare
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.45036062662857 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {594CA07F-4DAE-4B67-B1C9-5FE27EEF60EA}
+    PERF 0
+    AUXRECV 1 0 1 0 0 0 0 -1 0 -1:U 0 -1 ''
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 24 52 730 630
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSamplOmatic5000 (Cockos)" reasamplomatic.dll 0 "" 1920167789<56535472736F6D72656173616D706C6F> ""
+        bW9zcu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABTAQAAAQAAAAAAEAA=
+        QzpcVXNlcnNcYWxtdWZcRG9jdW1lbnRzXFJlcG9zXE11c2ljYWxcUmVhcGVyXHRoaXJkUHJvamVjdFxzbmFyZVNtLndhdgAAAAAAAADwPwAAAAAAAOA/AAAAAAAA8D/K
+        ZDKZTCbTP8pkMplMJtM/mpmZmZmZsT/NzMzMzMzrPwAAAAAAAAAAHMdxHMdx3D/8qfHSTWJAP/yp8dJNYkA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8D8A
+        AAAAAADgPwEAAAAAAAAAAAAAAAAAAAAAAPA/QAAAAFVVVVVVVcU//////wgEAoFAIIA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAzqQhIRplkD8AAAAAAADwP/yp8dJNYjA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAQAAAA
+      >
+      FLOATPOS 56 84 519 583
+      FXID {DC222E50-79B5-40BB-A7B3-2B01A75CC8CC}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSamplOmatic5000 (Cockos)" reasamplomatic.dll 0 "" 1920167789<56535472736F6D72656173616D706C6F> ""
+        bW9zcu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABSAQAAAQAAAAAAEAA=
+        QzpcVXNlcnNcYWxtdWZcRG9jdW1lbnRzXFJlcG9zXE11c2ljYWxcUmVhcGVyXHRoaXJkUHJvamVjdFxzbmFyZUIud2F2AAAAAAAAAPA/AAAAAAAA4D8AAAAAAADwP+p0
+        Op1Op9M/6nQ6nU6n0z+amZmZmZmxP83MzMzMzOs/AAAAAAAAAAAcx3Ecx3HcP/yp8dJNYkA//Knx0k1iQD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAA
+        AAAAAOA/AQAAAAAAAAAAAAAAAAAAAAAA8D9AAAAAVVVVVVVVxT//////CAQCgUAggD8AAAAAAADwPwAAAAAAAPA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADOpCEhGmWQPwAAAAAAAPA//Knx0k1iMD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {8FB436E4-AF71-4F98-B18B-D2EE4F7F5243}
+      WAK 0 0
+    >
   >
   <TRACK {9DAE7BBD-2685-4F49-B258-49F472D000B0}
     NAME ""
@@ -209,7 +809,7 @@
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 0 0 0 0 0
+    BUSCOMP 1 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
@@ -235,7 +835,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -265,7 +865,7 @@
       CHANMODE 0
       GUID {1CD60BF0-7722-4956-8191-3BA151DB195B}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Room2.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Room2.ogg"
       >
     >
     <ITEM
@@ -287,7 +887,7 @@
       CHANMODE 0
       GUID {000CD9E7-401A-4D3E-A555-41335E6A26D0}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Room2.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Room2.ogg"
       >
     >
     <ITEM
@@ -309,7 +909,7 @@
       CHANMODE 0
       GUID {2C48E455-2F38-45D8-B900-2518E2C37EB8}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Room2.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Room2.ogg"
       >
     >
     <ITEM
@@ -321,7 +921,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {F2383D55-FE27-44CD-BED5-1907373271FF}
       IID 15
       NAME Room2.ogg
@@ -331,7 +931,7 @@
       CHANMODE 0
       GUID {9F41E30F-460C-46EC-B4C6-DD609B77597F}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Room2.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Room2.ogg"
       >
     >
   >
@@ -377,7 +977,7 @@
       CHANMODE 0
       GUID {26142BF3-36C0-4A1F-B0D1-72FC1385DE78}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Room1.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Room1.ogg"
       >
     >
     <ITEM
@@ -399,7 +999,7 @@
       CHANMODE 0
       GUID {B662964C-847A-463B-BB1E-16BCCB443117}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Room1.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Room1.ogg"
       >
     >
     <ITEM
@@ -421,7 +1021,7 @@
       CHANMODE 0
       GUID {DE23F97E-89D0-4638-8DDF-C4B9BAA60EA0}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Room1.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Room1.ogg"
       >
     >
     <ITEM
@@ -443,123 +1043,7 @@
       CHANMODE 0
       GUID {789C3F7F-2F45-4CD7-840A-A80395387D13}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Room1.ogg"
-      >
-    >
-  >
-  <TRACK {A14DF12B-0C28-4BF2-8421-1E77E401A776}
-    NAME ""
-    PEAKCOL 33521664
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 1 1
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
-    REC 0 0 1 0 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {A14DF12B-0C28-4BF2-8421-1E77E401A776}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-  >
-  <TRACK {2ECA5F39-B407-4304-ABE2-6DC45BF41728}
-    NAME Snare2
-    PEAKCOL 33521664
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 0.35148740112729 0.8 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
-    REC 0 0 1 0 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {2ECA5F39-B407-4304-ABE2-6DC45BF41728}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-    <ITEM
-      POSITION 0.256
-      SNAPOFFS 0
-      LENGTH 256.17083333333335
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {BB26A971-5788-42AB-A6BD-8718161A92CE}
-      IID 17
-      NAME Snare2.ogg
-      VOLPAN 1 0 1.228493 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {2909325D-5E5D-40D6-891F-DBC6C113F98A}
-      <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Snare2.ogg"
-      >
-    >
-  >
-  <TRACK {08245770-75F9-4CBB-8F84-AEAE383FDEBB}
-    NAME Snare1
-    PEAKCOL 33521664
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 0.50761876644739 -0.8 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 2 -1
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
-    REC 0 0 1 0 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {08245770-75F9-4CBB-8F84-AEAE383FDEBB}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-    <ITEM
-      POSITION 0.256
-      SNAPOFFS 0
-      LENGTH 256.17083333333397
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {B08F57BE-2B0D-4F65-9FBF-B325C562EC0B}
-      IID 16
-      NAME Snare1.ogg
-      VOLPAN 1 0 1.228493 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {4856E62E-DFF7-47B9-8788-82C3467D8533}
-      <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Snare1.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Room1.ogg"
       >
     >
   >
@@ -568,11 +1052,11 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.30902659488464 0 -1 -1 1
-    MUTESOLO 0 0 0
+    VOLPAN 0.31717584477602 0 -1 -1 1
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
-    ISBUS 2 -1
+    ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     SEL 0
@@ -605,7 +1089,7 @@
       CHANMODE 0
       GUID {8FA56115-35DC-4B18-97AD-F104E64F9C4B}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
       >
     >
     <ITEM
@@ -627,13 +1111,13 @@
       CHANMODE 0
       GUID {BDDFFAF0-C3D0-4A38-84E7-69D8F0A30F65}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
       >
     >
     <ITEM
       POSITION 42.0737787388723
       SNAPOFFS 0
-      LENGTH 214.35354763283533
+      LENGTH 30.64256177974334
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
@@ -649,7 +1133,7 @@
       CHANMODE 0
       GUID {587BEED8-F10A-4B45-8AAE-324B91C56921}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
       >
     >
     <ITEM
@@ -671,7 +1155,7 @@
       CHANMODE 0
       GUID {D80694CE-ACE9-4D86-9023-2EAF1677D0BF}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
       >
     >
     <ITEM
@@ -693,7 +1177,7 @@
       CHANMODE 0
       GUID {6DC22C02-58F7-44E2-BC52-1F964E66E937}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
       >
     >
     <ITEM
@@ -715,7 +1199,7 @@
       CHANMODE 0
       GUID {32D49F28-59F6-4091-A26E-68A5D40FD94A}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
       >
     >
     <ITEM
@@ -737,7 +1221,7 @@
       CHANMODE 0
       GUID {9F426553-E1F4-4A6D-869B-5B42A2472D96}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
       >
     >
     <ITEM
@@ -759,7 +1243,7 @@
       CHANMODE 0
       GUID {CAB64028-62A3-4BE5-A360-273503FF756D}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
       >
     >
     <ITEM
@@ -781,7 +1265,7 @@
       CHANMODE 0
       GUID {5A9193C6-9FC5-4607-90FC-A42B955604B7}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
       >
     >
     <ITEM
@@ -803,7 +1287,7 @@
       CHANMODE 0
       GUID {01F9E1ED-CF25-4382-ADA1-CD1AF17E4992}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
       >
     >
     <ITEM
@@ -825,7 +1309,7 @@
       CHANMODE 0
       GUID {DA1E3B14-9230-4980-B12E-EEBDE2BC6993}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
       >
     >
     <ITEM
@@ -847,7 +1331,7 @@
       CHANMODE 0
       GUID {E916AC13-A114-4459-B032-66FB9BC535B8}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
       >
     >
     <ITEM
@@ -869,7 +1353,7 @@
       CHANMODE 0
       GUID {6437F210-C37A-4D51-B378-41DA06369B23}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
       >
     >
     <ITEM
@@ -891,7 +1375,7 @@
       CHANMODE 0
       GUID {7C7973C6-EC0B-47A4-B9CD-813D7BCECD02}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
       >
     >
     <ITEM
@@ -913,7 +1397,7 @@
       CHANMODE 0
       GUID {45538C12-B0A3-41CF-ABF7-D653372EF2AC}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
       >
     >
     <ITEM
@@ -935,7 +1419,387 @@
       CHANMODE 0
       GUID {E7557A0D-20DA-4EA9-908C-FB712809AD53}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+      >
+    >
+    <ITEM
+      POSITION 72.71634051861564
+      SNAPOFFS 0
+      LENGTH 1.23913795170108
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C9AE92FB-D059-4302-809A-BB52EAD3821F}
+      IID 1
+      NAME Kick.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 72.45984748024151
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D550A47F-7069-4B2A-9165-39783B6D49DC}
+      <SOURCE VORBIS
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+      >
+    >
+    <ITEM
+      POSITION 73.95547847031672
+      SNAPOFFS 0
+      LENGTH 157.42348805158571
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {38E534E6-A4A7-4E86-9D1E-28E011FB954C}
+      IID 1
+      NAME Kick.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 73.69898543194259
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {44B71955-66E1-4DC5-ABD6-E3F9F6497BB5}
+      <SOURCE VORBIS
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+      >
+    >
+    <ITEM
+      POSITION 231.37896652190244
+      SNAPOFFS 0
+      LENGTH 0.13830011899347
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F35B0BA9-6F4D-4B4E-A5A2-6B3919730ACB}
+      IID 1
+      NAME Kick.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 231.1224734835283
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FEEECF65-679E-487F-A679-88F94A068469}
+      <SOURCE VORBIS
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+      >
+    >
+    <ITEM
+      POSITION 231.51726664089591
+      SNAPOFFS 0
+      LENGTH 24.91005973081172
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1BC6DDB5-3524-472B-B087-BDC782380FEE}
+      IID 1
+      NAME Kick.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 231.26077360252177
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {45C7C636-9C8B-4F1D-BF42-1DD3B1106A9E}
+      <SOURCE VORBIS
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Kick.ogg"
+      >
+    >
+  >
+  <TRACK {A14DF12B-0C28-4BF2-8421-1E77E401A776}
+    NAME ""
+    PEAKCOL 33521664
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {A14DF12B-0C28-4BF2-8421-1E77E401A776}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {08245770-75F9-4CBB-8F84-AEAE383FDEBB}
+    NAME Snare1
+    PEAKCOL 33521664
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.34264637489056 -0.8 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {08245770-75F9-4CBB-8F84-AEAE383FDEBB}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0.256
+      SNAPOFFS 0
+      LENGTH 20.13804647339138
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B08F57BE-2B0D-4F65-9FBF-B325C562EC0B}
+      IID 16
+      NAME Snare1.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4856E62E-DFF7-47B9-8788-82C3467D8533}
+      <SOURCE VORBIS
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Snare1.ogg"
+      >
+    >
+    <ITEM
+      POSITION 20.39404647339138
+      SNAPOFFS 0
+      LENGTH 1.09437029706292
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5670B5E6-9862-4E1C-B2E7-AC00FA934CDC}
+      IID 16
+      NAME Snare1.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 20.13804647339138
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E3BF4930-8B92-4F77-9F47-AD15AF1F5B19}
+      <SOURCE VORBIS
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Snare1.ogg"
+      >
+    >
+    <ITEM
+      POSITION 21.4884167704543
+      SNAPOFFS 0
+      LENGTH 24.23252093413852
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3E2165B9-B3C9-4FE9-86EE-0F006176D1AC}
+      IID 16
+      NAME Snare1.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 21.2324167704543
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6DDB8193-7BF7-430C-974C-214E61F58C5E}
+      <SOURCE VORBIS
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Snare1.ogg"
+      >
+    >
+    <ITEM
+      POSITION 45.72093770459282
+      SNAPOFFS 0
+      LENGTH 0.55390827117639
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9CBD9782-7F2F-4280-9911-EF082E0E3E3A}
+      IID 16
+      NAME Snare1.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 45.46493770459282
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BF3B2378-4F54-4E17-89B1-C6A4D225F294}
+      <SOURCE VORBIS
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Snare1.ogg"
+      >
+    >
+    <ITEM
+      POSITION 46.27484597576921
+      SNAPOFFS 0
+      LENGTH 210.15198735756476
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F0B880E0-A270-470B-8D0A-D1F0CAD6DBAA}
+      IID 16
+      NAME Snare1.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 46.01884597576921
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2C7BC8E2-C5EB-48D8-ABCC-564FA0DE799F}
+      <SOURCE VORBIS
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Snare1.ogg"
+      >
+    >
+  >
+  <TRACK {2ECA5F39-B407-4304-ABE2-6DC45BF41728}
+    NAME Snare2
+    PEAKCOL 33521664
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.35148740112729 0.8 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -2
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {2ECA5F39-B407-4304-ABE2-6DC45BF41728}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0.256
+      SNAPOFFS 0
+      LENGTH 20.13804647339138
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BB26A971-5788-42AB-A6BD-8718161A92CE}
+      IID 17
+      NAME Snare2.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2909325D-5E5D-40D6-891F-DBC6C113F98A}
+      <SOURCE VORBIS
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Snare2.ogg"
+      >
+    >
+    <ITEM
+      POSITION 20.39404647339138
+      SNAPOFFS 0
+      LENGTH 1.09437029706292
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {055B21D0-5BC3-4962-A168-5EF4AEFC1F7B}
+      IID 17
+      NAME Snare2.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 20.13804647339138
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3C520E4C-E76E-4958-BA92-4D8ED9EC063A}
+      <SOURCE VORBIS
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Snare2.ogg"
+      >
+    >
+    <ITEM
+      POSITION 21.4884167704543
+      SNAPOFFS 0
+      LENGTH 24.23252093413852
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {71F798DE-FBF7-402F-8DFB-42461E26705B}
+      IID 17
+      NAME Snare2.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 21.2324167704543
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5317B2FD-D248-447D-8E6B-F4195060BC82}
+      <SOURCE VORBIS
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Snare2.ogg"
+      >
+    >
+    <ITEM
+      POSITION 45.72093770459282
+      SNAPOFFS 0
+      LENGTH 0.55390827117639
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A346B63C-40E6-43C9-B8F6-D3E30036EE81}
+      IID 17
+      NAME Snare2.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 45.46493770459282
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B32C4567-C419-42EB-B917-FDB409ED0E43}
+      <SOURCE VORBIS
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Snare2.ogg"
+      >
+    >
+    <ITEM
+      POSITION 46.27484597576921
+      SNAPOFFS 0
+      LENGTH 210.15198735756414
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0BE9BEEC-F181-41F9-B3D2-0F5C355B5810}
+      IID 17
+      NAME Snare2.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 46.01884597576921
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3AEB26CB-B4F5-45E5-A9F1-93D7E00F39E8}
+      <SOURCE VORBIS
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Snare2.ogg"
       >
     >
   >
@@ -945,13 +1809,13 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 2 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 0 0 0 0 0
+    BUSCOMP 2 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -979,7 +1843,7 @@
         EGUID {478B8C54-4DDE-46ED-8EEC-F98A5924FCD6}
         ACT 1 -1
         VIS 1 1 1
-        LANEHEIGHT 36 0
+        LANEHEIGHT 0 0
         ARM 0
         DEFSHAPE 0 -1 -1
         PT 0 0 0
@@ -1025,7 +1889,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -1049,7 +1913,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -1076,7 +1940,7 @@
       CHANMODE 0
       GUID {4F8082F2-BB4D-450D-8B1E-DECBC06188E1}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\LeadGuitar2.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\LeadGuitar2.ogg"
       >
     >
   >
@@ -1095,7 +1959,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -1122,7 +1986,7 @@
       CHANMODE 0
       GUID {1EC971C7-A45D-4B38-B1D7-7AAC89AF781E}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\LeadGuitar1.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\LeadGuitar1.ogg"
       >
     >
   >
@@ -1141,7 +2005,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -1165,7 +2029,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -1192,7 +2056,7 @@
       CHANMODE 0
       GUID {DBECBACE-FF4C-4B57-976F-014FF10242D9}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\AcousticGuitar2.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\AcousticGuitar2.ogg"
       >
     >
   >
@@ -1211,7 +2075,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -1238,7 +2102,7 @@
       CHANMODE 0
       GUID {78E8E0C3-F079-4CDE-8FFD-957510027712}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\AcousticGuitar1.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\AcousticGuitar1.ogg"
       >
     >
   >
@@ -1316,7 +2180,7 @@
     <ITEM
       POSITION 0.256
       SNAPOFFS 0
-      LENGTH 256.17083333333312
+      LENGTH 237.30549141568903
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
@@ -1332,7 +2196,51 @@
       CHANMODE 0
       GUID {A258D0AD-693F-4549-846B-F3F4E3123CC5}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Vocals2.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Vocals2.ogg"
+      >
+    >
+    <ITEM
+      POSITION 237.56149141568903
+      SNAPOFFS 0
+      LENGTH 10.11502341564093
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D8582688-9BFF-48D4-9461-A57E3172F76C}
+      IID 19
+      NAME Vocals2.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 237.30549141568903
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0224E633-B08F-4871-89F4-D4CC3C96FFA1}
+      <SOURCE VORBIS
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Vocals2.ogg"
+      >
+    >
+    <ITEM
+      POSITION 247.67651483132997
+      SNAPOFFS 0
+      LENGTH 8.75031850200315
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4F74E6CB-F116-41DD-BD3F-88E758CBC901}
+      IID 19
+      NAME Vocals2.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 247.42051483132997
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0B64651E-D0FE-4906-9BCB-7B801229086E}
+      <SOURCE VORBIS
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Vocals2.ogg"
       >
     >
   >
@@ -1362,7 +2270,7 @@
     <ITEM
       POSITION 0.256
       SNAPOFFS 0
-      LENGTH 256.17083333333284
+      LENGTH 237.30549141568903
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
@@ -1378,7 +2286,51 @@
       CHANMODE 0
       GUID {28C906D2-85FA-4BBB-9145-2B16E06727E9}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Vocals1.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Vocals1.ogg"
+      >
+    >
+    <ITEM
+      POSITION 237.56149141568903
+      SNAPOFFS 0
+      LENGTH 10.11502341564093
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FA51773B-47B0-4B65-8FDA-846CA5E25B7F}
+      IID 18
+      NAME Vocals1.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 237.30549141568903
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7E3957EF-2D63-4011-BB8A-CEE955DEAE01}
+      <SOURCE VORBIS
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Vocals1.ogg"
+      >
+    >
+    <ITEM
+      POSITION 247.67651483132997
+      SNAPOFFS 0
+      LENGTH 8.75031850200287
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0CDAD76A-63AA-4F8A-B49A-73BE06D07683}
+      IID 18
+      NAME Vocals1.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 247.42051483132997
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9775ADED-8646-42F1-BBC9-475285885A4C}
+      <SOURCE VORBIS
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Vocals1.ogg"
       >
     >
   >
@@ -1448,7 +2400,29 @@
       CHANMODE 0
       GUID {B87388D4-B4C0-45D3-97B6-5DA5426AB2CB}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\BackingVocals2.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\BackingVocals2.ogg"
+      >
+    >
+    <ITEM
+      POSITION 237.56149141568903
+      SNAPOFFS 0
+      LENGTH 10.11502341564093
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {311DB22A-BC40-429C-8F7A-9D07F6C7DD15}
+      IID 19
+      NAME Vocals2.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 237.30549141568903
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {95494AA6-7C17-48D0-8ACF-4592A936FA76}
+      <SOURCE VORBIS
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Vocals2.ogg"
       >
     >
   >
@@ -1494,7 +2468,29 @@
       CHANMODE 0
       GUID {2C7BF30B-D58D-4B53-AC38-A32DB575B59B}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\BackingVocals1.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\BackingVocals1.ogg"
+      >
+    >
+    <ITEM
+      POSITION 237.56149141568903
+      SNAPOFFS 0
+      LENGTH 10.11502341564093
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B03046BA-C189-454A-89F3-7E7052099EC2}
+      IID 18
+      NAME Vocals1.ogg
+      VOLPAN 1 0 1.228493 -1
+      SOFFS 237.30549141568903
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4F46493D-C7BA-42B4-8ABF-00F6A637F4BF}
+      <SOURCE VORBIS
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Vocals1.ogg"
       >
     >
   >
@@ -1508,7 +2504,7 @@
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 1 0 0 0 0
+    BUSCOMP 2 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
@@ -1531,7 +2527,7 @@
         cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArAAAAAEAAAAAABAA
         IQAAAAQAAAADAAAAAQAAAPaU4gG3c4FAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAGouf95Oi4xAKAGVctwoCEAAAAAAAAAAQAEIAAAAAQAAAK0SX0o+vsBANAGVctwo
         CEAAAAAAAAAAQAEBAAAAAQAAAPzn4+0X1spAoK4d+XBY9D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAP0BAABcAQAAAgAAAA==
-        AFByb2dyYW0gMQAQAAAA
+        AAAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {69A8CB19-1ABE-4269-ACB5-6184CDBC7E64}
@@ -1553,7 +2549,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -1580,7 +2576,7 @@
       CHANMODE 0
       GUID {E7CDFDE7-9FCD-4B83-9A29-D1BA924A18E4}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Bass.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Bass.ogg"
       >
     >
   >
@@ -1668,7 +2664,7 @@
       CHANMODE 0
       GUID {A213DFDF-79E7-4887-B9C7-F39DE9050D7E}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Keys1.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Keys1.ogg"
       >
     >
   >
@@ -1714,7 +2710,7 @@
       CHANMODE 0
       GUID {1F86485E-2521-42F1-A4AA-8C4B16613934}
       <SOURCE VORBIS
-        FILE "D:\oskar\Documents\4V\2Cuatri\Musical\Reaper\thirdProject\I Want to Break Free\Keys2.ogg"
+        FILE "C:\Users\almuf\Documents\Repos\Musical\Reaper\thirdProject\I Want to Break Free\Keys2.ogg"
       >
     >
   >
@@ -1723,7 +2719,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
+    VOLPAN 0.17341828064739 0 -1 -1 1
     MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -1739,16 +2735,18 @@
     FX 1
     TRACKID {831544FF-7FA7-48C0-8EF7-F012A88695AC}
     PERF 0
-    AUXRECV 1 0 0.17782794100389 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 2 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 3 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 4 0 0.17782794100389 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 7 0 0.17782794100389 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 8 0 0.17782794100389 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 15 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 11 0 0.17782794100389 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 18 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     <AUXVOLENV
       EGUID {344E865B-677E-4409-826F-4283028CE562}
       ACT 0 -1
       VIS 0 1 1
-      LANEHEIGHT 47 0
+      LANEHEIGHT 0 0
       ARM 0
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
@@ -1759,7 +2757,7 @@
       PT 56.65037268 0.51286138 0
       PT 57.08710463 0 0
     >
-    AUXRECV 24 0 0.17782794100389 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 27 0 0.17782794100389 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1
     MAINSEND 1 0
     <FXCHAIN
@@ -1800,7 +2798,7 @@
     FX 1
     TRACKID {592F3DAE-E483-42D9-ACAA-E34E72D9887D}
     PERF 0
-    AUXRECV 15 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 18 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     <AUXVOLENV
       EGUID {3C5BF39C-D3C7-4D5F-809D-7A82E3880250}
       ACT 1 -1
@@ -1828,8 +2826,8 @@
       PT 86.33168766 0.24547089 0
       PT 86.48978362 0 0
       PT 94.77454988 0 0 0 1
-      PT 94.79713502 0.5370318 0 0 1
-      PT 95.64407767 0.24547089 0 0 1
+      PT 94.79713502 0.69582496 0 0 1
+      PT 95.64407767 0.31805337 0 0 1
       PT 95.80217363 0 0 0 1
     >
     MIDIOUT -1
@@ -1858,7 +2856,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 2 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -1873,7 +2871,7 @@
     FX 1
     TRACKID {C63B5300-EB69-4E62-95A7-BD33B1589C7C}
     PERF 0
-    AUXRECV 8 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 11 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     <AUXVOLENV
       EGUID {62E5D853-A9EC-4A82-8D9E-E4AF6A3ABFE6}
       ACT 1 -1
@@ -1920,6 +2918,35 @@
       FLOATPOS 0 0 0 0
       FXID {8E310423-131C-47F8-BE4F-027550C9BBBE}
       WAK 0 0
+    >
+  >
+  <TRACK {D37A5504-0630-42F8-BE39-E77714D55643}
+    NAME "Bombo/Caja MIDI"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {D37A5504-0630-42F8-BE39-E77714D55643}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
     >
   >
 >
