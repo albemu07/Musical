@@ -1,0 +1,24 @@
+Oscar García Castro
+Alberto Muñoz Fernández
+
+Hemos hecho el ejercicio entero. En un apartado se pide una progresión de acordes en la tonalidad La menor. En contra del ejercicio, quisimos tocar
+un acorde en la tonalidad mayor, asi que decidimos tocarla en La mayor, sin embargo nos equivocamos y la cancion ahora sigue una progresión de 
+acordes en la tonalidad Si bemol. Como nos gustaba el resultado, decidimos dejarlo en esta tonalidad.
+
+El acorde principal esta en la tonalidad de Si bemol mayor y la progresión es la siguiente: IV V iii vi.
+
+En el acorde de IV las notas son: Mi bemol, Sol y Si bemol.
+En el acorde de V las notas son: Fa, La, Do(de la octava siguiente)
+En el acorde de iii las notas son: Re, Fa, La
+En el acorde de vi las notas son: Sol, Si bemol, Re(de la octava siguiente)
+
+Estos acrodes son tocados por el piano y el bajo.
+
+Los pads tocan estos mismos acordes pero solo una nota de cada acorde en la siguiente progresión:
+
+-PAD 1: Sol -> Fa -> La -> Sol
+-PAD 2: Mi bemol -> Do(de la octava siguiente) -> Re -> Re(de la octava siguiente)
+-PAD 3: Si bemol -> Do(de la octava siguiente) -> La -> Re(de la octava siguiente)
+
+
+
